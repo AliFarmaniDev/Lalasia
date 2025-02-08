@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-[30px] font-bold underline">hello world</h1>
+    <h1 class="text-[30px] font-bold underline text-primary-1">hello world</h1>
   </div>
 </template>
 
