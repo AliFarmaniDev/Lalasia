@@ -5,5 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-
+useSeoMeta({
+  title: 'home page'
+})
 </script>
