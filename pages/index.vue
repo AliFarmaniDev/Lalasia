@@ -6,6 +6,6 @@
 
 <script lang="ts" setup>
 useSeoMeta({
-  title: 'home page'
-})
+  title: "home page",
+});
 </script>

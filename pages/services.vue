@@ -1,10 +1,11 @@
 <template>
-  <Header />
   <div>
-    <NuxtPage />
+    <h2>services page</h2>
   </div>
 </template>
 
 <script lang="ts" setup>
-import Header from "./components/Header.vue";
+useSeoMeta({
+  title: "services",
+});
 </script>

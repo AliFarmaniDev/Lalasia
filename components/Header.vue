@@ -5,7 +5,11 @@
         <div class="flex items-center">
           <!--logo section-->
           <NuxtLink to="/">
-            <img src="../assets/images/logo.png" alt="sitelogo" class="w-[92px] h-[35px] sm:w-[130px] sm:h-[42px]">
+            <img
+              src="../assets/images/logo.png"
+              alt="sitelogo"
+              class="w-[92px] h-[35px] sm:w-[130px] sm:h-[42px]"
+            />
           </NuxtLink>
         </div>
         <div class="flex items-center">
@@ -14,8 +18,8 @@
         </div>
         <div class="hidden sm:flex items-center gap-[25px]">
           <!--register-->
-          <img src="../assets/icons/user.png" alt="user profile">
-          <img src="../assets/icons/bag-2.png" alt="hopping bag">
+          <img src="../assets/icons/user.png" alt="user profile" />
+          <img src="../assets/icons/bag-2.png" alt="hopping bag" />
         </div>
       </div>
     </Container>
@@ -23,6 +27,6 @@
 </template>
 
 <script lang="ts" setup>
-import Container from '~/layouts/Container.vue';
-import Menu from './Menu.vue';
+import Container from "~/layouts/Container.vue";
+import Menu from "./Menu.vue";
 </script>
