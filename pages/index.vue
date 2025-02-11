@@ -1,11 +1,19 @@
 <template>
   <div>
-    <h1 class="text-[30px] font-bold underline text-primary-1">hello world</h1>
+    <MainBaner />
+  </div>
+  <div>
+    <SearchBox />
   </div>
 </template>
 
 <script lang="ts" setup>
+//import components
+import MainBaner from '~/components/MainBaner.vue';
+import SearchBox from '~/components/SearchBox.vue';
+//seo
 useSeoMeta({
   title: "home page",
+  description: "this is home page"
 });
 </script>
